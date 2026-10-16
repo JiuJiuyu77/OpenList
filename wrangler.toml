@@ -1,0 +1,11 @@
+name = "openlist"
+main = "src/backend/worker.ts"
+compatibility_date = "2026-08-04"
+compatibility_flags = ["nodejs_compat"]
+
+"
+binding = "ASSETS"
+
+[vars]
+ENVIRONMENT = "production"
+VITE_API_URL = "/api"
